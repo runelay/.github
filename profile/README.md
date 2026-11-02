@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/banner.png" alt="Runelay" width="100%" />
+  <img src="./assets/cover.png" alt="Runelay" width="100%" />
 </p>
 
 <p align="center">
@@ -45,16 +45,6 @@ const response = await client.chat.completions.create({
 export ANTHROPIC_BASE_URL=https://api.runelay.com
 export ANTHROPIC_API_KEY=rl_m_...
 ```
-
-<h2 align="center">Why Runelay</h2>
-
-<p align="center">
-  <b>Bring your own keys</b>: connect Anthropic, OpenAI, Gemini and DeepSeek with your org's keys, encrypted at rest.<br />
-  <b>Know where the money goes</b>: every request is metered with tokens, cache, latency and cost.<br />
-  <b>Set the limits</b>: rate, token and concurrency limits per key and per organization.<br />
-  <b>Stay up</b>: automatic failover between keys on 429s, 5xx and timeouts.<br />
-  <b>Built for teams</b>: personal and service keys, roles, and per-seat billing.
-</p>
 
 <h2 align="center">Get started</h2>
 

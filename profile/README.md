@@ -19,6 +19,13 @@
 
 A self-hosted MCP gateway: one endpoint for every account, skill and memory your agents use.
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/runelay-dark.webp" />
+    <img src="./assets/runelay-light.webp" alt="runelay dashboard: connected accounts, tool calls per agent and recent activity" width="100%" />
+  </picture>
+</p>
+
 Connect Linear, GitHub, Notion, Supabase and the rest once, on your own server. Claude Code, Codex, Cursor, Antigravity and Grok all see the same tools and the same context. runelay runs no model: your agent thinks, runelay is where it finds tools and context.
 
 - **Connect once**: curated MCP servers with one-click OAuth, plus any remote MCP, local MCP or OpenAPI spec.
@@ -33,6 +40,10 @@ curl -fsSL runelay.com/install | sh
 ```
 
 ## r/bots
+
+<p align="center">
+  <img src="./assets/r-bots.png" alt="r/bots on the Mac and the iPhone app" width="100%" />
+</p>
 
 A team of bots that is yours. Each bot has its own instructions, model, tools and conversations, runs on your server with the Claude subscription you already pay for, and you talk to them from a native Mac app.
 

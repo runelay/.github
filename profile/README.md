@@ -1,53 +1,44 @@
-<h1 align="center">Runelay</h1>
-
 <p align="center">
-  <b>The AI gateway for teams that ship with LLMs</b>: one endpoint between your tools and every model provider, with <b>usage tracking, spend limits and full control</b> over who calls what.
+  <img src="./assets/cover.png" alt="runelay" width="100%" />
 </p>
 
-<p align="center">
-  Made for devs who want <b>visibility, predictable costs and zero code changes</b>.
-</p>
+<h1 align="center">runelay</h1>
 
 <p align="center">
-  <img src="./assets/cover.png" alt="Runelay" width="100%" />
+  Open-source, self-hosted tools for people who work with AI agents.
 </p>
 
 <p align="center">
   <a href="https://runelay.com">Website</a> ·
-  <a href="https://x.com/userunelay">X (Twitter)</a>
+  <a href="https://docs.runelay.com">Docs</a> ·
+  <a href="https://github.com/runelay/runelay">GitHub</a> ·
+  <a href="https://x.com/userunelay">X</a>
 </p>
 
-<h2 align="center">Plug it into your stack</h2>
+## [runelay](https://github.com/runelay/runelay)
 
-<p align="center">
-  Runelay speaks the providers' own protocols. Swap the <b>base URL</b> and the <b>API key</b>, and your code stays the same.
-</p>
+A self-hosted MCP gateway: one endpoint for every account, skill and memory your agents use.
 
-```ts
-import OpenAI from 'openai';
+Connect Linear, GitHub, Notion, Supabase and the rest once, on your own server. Claude Code, Codex, Cursor, Antigravity and Grok all see the same tools and the same context. runelay runs no model: your agent thinks, runelay is where it finds tools and context.
 
-const client = new OpenAI({
-	baseURL: 'https://api.runelay.com/v1',
-	apiKey: process.env.RUNELAY_API_KEY, // rl_m_...
-});
+- **Connect once**: curated MCP servers with one-click OAuth, plus any remote MCP, local MCP or OpenAPI spec.
+- **Shared memory**: linked, versioned notes. What one agent learns, all of them know.
+- **Skills that travel**: your `SKILL.md` folders, searchable and served on demand.
+- **Migrate in one command**: `runelay migrate` brings MCP servers, memories, skills and instructions from Claude Code, Codex, Cursor, Grok, Gemini and OpenCode.
+- **One key per agent**, every call audited, revoke one without touching the others.
+- **Yours**: one Docker container or the desktop app for Mac, Windows and Linux. SQLite, web dashboard, MIT.
 
-const response = await client.chat.completions.create({
-	model: 'gpt-5',
-	messages: [{ role: 'user', content: 'Hello from Runelay!' }],
-});
+```sh
+curl -fsSL runelay.com/install | sh
 ```
 
-<p align="center">
-  Using Claude Code, Codex or Cursor? Point them at the gateway with two environment variables:
-</p>
+## r/bots
 
-```bash
-export ANTHROPIC_BASE_URL=https://api.runelay.com
-export ANTHROPIC_API_KEY=rl_m_...
-```
+A team of bots that is yours. Each bot has its own instructions, model, tools and conversations, runs on your server with the Claude subscription you already pay for, and you talk to them from a native Mac app.
 
-<h2 align="center">Get started</h2>
+- A Bun server in Docker running each turn on the Claude Agent SDK, or on Codex, Cursor and Grok.
+- Code mode: a git worktree per conversation, live diff, commit, push and PR with CI status.
+- A browser per bot, a virtual desktop on the server and your own Mac, always with your approval.
+- Routines, voice calls, GitHub and Linear, and every runelay connector, memory and skill.
 
-<p align="center">
-  Create your organization at <a href="https://runelay.com">runelay.com</a>, connect a provider key and generate a Runelay key. That's it.
-</p>
+r/bots is in private development.

@@ -39,7 +39,7 @@ Connect Linear, GitHub, Notion, Supabase and the rest once, on your own server. 
 curl -fsSL runelay.com/install | sh
 ```
 
-## r/bots
+## [r/bots](https://github.com/runelay/r-bots)
 
 <p align="center">
   <img src="./assets/r-bots.png" alt="r/bots on the Mac and the iPhone app" width="100%" />

@@ -13,6 +13,10 @@
 </p>
 
 <p align="center">
+  <img src="./assets/ecosystem.webp" alt="A quick tour of the Runelay ecosystem: connect your accounts once, share memory and skills across agents, the runelay dashboard and r/bots" width="100%" />
+</p>
+
+<p align="center">
   <a href="https://runelay.com">Website</a> ·
   <a href="https://docs.runelay.com">Docs</a> ·
   <a href="https://github.com/runelay/runelay">GitHub</a> ·

@@ -2,10 +2,14 @@
   <img src="./assets/cover.png" alt="runelay" width="100%" />
 </p>
 
-<h1 align="center">runelay</h1>
+<h1 align="center">Runelay Ecosystem</h1>
 
 <p align="center">
   Open-source, self-hosted tools for people who work with AI agents.
+</p>
+
+<p align="center">
+  Runelay is a small ecosystem of projects that share one idea: your agents should run on your infrastructure, with your accounts, your context and your rules. Each piece works on its own, and together they connect the tools, memory and skills your agents need to the bots that put them to work, all under your control.
 </p>
 
 <p align="center">

@@ -52,4 +52,6 @@ A team of bots that is yours. Each bot has its own instructions, model, tools an
 - A browser per bot, a virtual desktop on the server and your own Mac, always with your approval.
 - Routines, voice calls, GitHub and Linear, and every runelay connector, memory and skill.
 
-r/bots is in private development.
+```sh
+curl -fsSL https://raw.githubusercontent.com/runelay/r-bots/main/install.sh | sh
+```

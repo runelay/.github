@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./assets/cover.png" alt="runelay" width="100%" />
-</p>
-
 <h1 align="center">Runelay Ecosystem</h1>
 
 <p align="center">
